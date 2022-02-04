@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 008 - JDBC MySQL Database (viewSingleUser.html)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="container">
+       <h2>Project 008 - JDBC MySQL Database (viewSingleUser.html)</h2>
+            <form class="well form-horizontal" action="../getSingleUser" method="get">
+                <fieldset>
+
+                    <!-- Form Name -->
+                    <legend>Person BMI & Category</legend>
+
+                    
+                    <!-- Text ID-->
+                     <div class="form-group">
+                        <label class="col-md-4 control-label">ID : </label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"></span>
+                                <input  name="id" placeholder="id" class="form-control"  type="text">
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <!-- Button -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label"></label>
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-success" >View User</button>
+                            <button type="reset" class="btn btn-warning" >Reset Form</button>
+                    </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+</body>
+</html>

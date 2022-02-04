@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Project 008 - JDBC MySQL Database (update.html)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="container">
+       <h2>Project 008 - JDBC MySQL Database (update.html)</h2>
+            <form class="well form-horizontal" action="../updateUser" method="get">
+                <fieldset>
+
+                   
+
+                    <!-- Text ID-->
+     
+                     <div class="form-group">
+                        <label class="col-md-4 control-label">ID : </label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"></span>
+                                <input  name="id" placeholder="ID" class="form-control"  type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Text input-->
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Full Name : </label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"></span>
+                                <input  name="username" placeholder="fullname" class="form-control"  type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                   
+                    <!-- input-->
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" >Year of Birth (yyyy) : </label> 
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"></span>
+                                <input name="yob" placeholder="yyyy" class="form-control"  type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                 
+                    
+
+                    <!-- input-->
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Email</label>  
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                <input name="email" placeholder="Email@gmai.com" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label"></label>
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-success" >Update Data</button>
+                            <button type="reset" class="btn btn-warning" >Reset Form</button>
+                            
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+</body>
+</html>
